@@ -1,0 +1,40 @@
+# Environment files and secrets
+.env
+.env.*
+!.env.example
+**/.env
+**/.env.*
+!**/.env.example
+
+# Local databases and SQLite sidecar files
+*.db
+*.db-*
+*.sqlite
+*.sqlite3
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+
+# Node.js and generated frontend output
+node_modules/
+dist/
+coverage/
+.eslintcache
+
+# Editors and operating systems
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Logs and local credentials/certificates
+*.log
+*.pem
+*.key
+*.p12
+*.pfx
